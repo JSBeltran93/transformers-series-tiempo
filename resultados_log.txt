@@ -1,0 +1,25 @@
+Ventanas de entrenamiento: torch.Size([776, 30, 1]), prueba: torch.Size([194, 30, 1])
+[Atención] Epoch 30/150 - loss_train: 0.37016
+[Atención] Epoch 60/150 - loss_train: 0.23561
+[Atención] Epoch 90/150 - loss_train: 0.19279
+[Atención] Epoch 120/150 - loss_train: 0.17179
+[Atención] Epoch 150/150 - loss_train: 0.15186
+[Atención] MSE en test: 0.19107
+[Transformer] Epoch 40/200 - loss_train: 0.06627
+[Transformer] Epoch 80/200 - loss_train: 0.03773
+[Transformer] Epoch 120/200 - loss_train: 0.03226
+[Transformer] Epoch 160/200 - loss_train: 0.02777
+[Transformer] Epoch 200/200 - loss_train: 0.02432
+[Transformer] MSE en test: 0.02069
+
+Resumen final:
+  n_muestras_serie: 1000
+  ventana: 30
+  n_train: 776
+  n_test: 194
+  epochs_atencion: 150
+  mse_train_final_atencion: 0.1518620103597641
+  mse_test_atencion: 0.19107291102409363
+  epochs_transformer: 200
+  mse_train_final_transformer: 0.024317016825079918
+  mse_test_transformer: 0.020685428753495216
